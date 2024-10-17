@@ -84,6 +84,12 @@ body {
   grid-column: span 2;
   grid-row: 3/4;
 }
+
+.main h3{
+   margin-left: 118px;
+  color: #bfc506;
+  font-weight: 400;
+}
 .mainmap {
   width: 100%;
   padding: 16px;
@@ -95,11 +101,31 @@ body {
   align-items: center;
   justify-content: flex-end;
 }
+.mainsubtitle{
+  color: #bfc506;
+}
+.history{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.history img{
+  width: 334px;
+  height: 300px;
+  border-radius: 50%;
+  align-self: center;
+}
+.history h5{
+  align-self: center;
+  margin-top: 20px;
+}
 
 .article_title {
-  margin-bottom: 32px;
+  margin-bottom: 10px;
   max-width: max-content;
   color: #bfc506;
+  font-weight: 400;
 }
 .main article {
   width: 658px;
@@ -152,7 +178,7 @@ body {
 .hero_paragraf {
   color: white;
   margin-left: 70px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .aside {
@@ -210,7 +236,10 @@ body {
 .default-card {
   display: none !important;
 }
-
+  hr {
+    height: 10px;
+ background-color: #bfc506;
+}
 @media (max-width: 576px) {
   .container {
     width: 100%;
