@@ -12,7 +12,15 @@ body {
   background-color: rgba(250, 250, 253, 0.884);
   font-family: "poppins";
 }
-
+.card{
+  display: flex;
+  flex-direction: row;
+  
+}
+iframe{
+  margin-left: 48px;
+  margin-bottom: 10px;
+  }
 .container {
   width: 90%;
   margin: 20px auto;
@@ -37,14 +45,14 @@ body {
   color: #d5d031;
   font-size: 54px;
   font-family: dancing script;
-  margin-left: 35px;
+  margin-left: 68px;
   margin-top: 215px;
 }
 .hero_h1 {
   color: #d5d031;
   font-size: 108px;
   font-family: dancing script;
-  margin-left: 17px;
+  margin-left: 127px;
   margin-top: 187px;
 }
 .heromap {
@@ -103,26 +111,104 @@ body {
 }
 .mainsubtitle{
   color: #bfc506;
+  margin-left: 303px;
+  margin-bottom: 31px;
+  font-weight: 300;
+}
+.playa1{
+  width: 200px;
+  height: 230px;
+  background-color: #d5d031;
+  margin: 2px auto;
+  border-radius: 20px;
+  background-image: url("../imagenes/estrella.jpeg");
+  background-size: cover;
+
+}
+
+.playa2{
+  width: 200px;
+  height: 230px;
+  background-color: #d5d031;
+  margin: 2px auto;
+  border-radius: 20px;
+  background-image: url("../imagenes/boca-del-drago.jpg");
+  background-size: cover;
+}
+.playa3{
+  width: 200px;
+  height: 230px;
+  background-color: #d5d031;
+  margin: 2px auto;
+  border-radius: 20px;
+  background-image: url("../imagenes/lancha.jpg");
+  background-size: cover;
+
+
+
+}
+
+
+.playa1-precio{    
+  width: 180px;
+  height: 30px;
+  background-color: #e0e0da7e;
+  border-radius: 20px;  
+  
+  margin-top: 6px;  
+  font-weight: 400;
+  color: #361507;
+    
+  margin-top: 153px;
+  margin-left: 10px;
+  font-size: 17px;
+  margin-left: 10px;
+}
+.playa1-precio p{
+  margin-left: 15px;
+}
+.tiempo{
+  width: 80px;
+  height: 30px;
+  background-color: #e0e0da7e;
+  border-radius: 20px;  
+  margin-left: 10px;
+  margin-top: 6px;
+}
+.tiempo p{
+  color: white;
+  font-size: 17px;
+  margin-left: 17px;
+}
+
+.main-text{
+  width: 486px;
+  margin-left: 83px;
+  font-size: 15px;
 }
 .history{
+  width: 650px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-bottom: 0px;
+  margin-left: 61px;
 }
 .history img{
-  width: 334px;
-  height: 300px;
+  width: 287px;
+  height: 273px;
   border-radius: 50%;
   align-self: center;
 }
 .history h5{
   align-self: center;
   margin-top: 20px;
+  margin-right: 48px;
 }
 
 .article_title {
-  margin-bottom: 10px;
+  margin-left: 51px;
+  margin-bottom: 18px;
   max-width: max-content;
   color: #bfc506;
   font-weight: 400;
@@ -145,6 +231,8 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
+  row-gap: 5px;
+  column-gap: 5px;
   background-color: rgb(213 208 49);
   border: #f8f3f3 solid 1px;
 }
@@ -171,7 +259,7 @@ body {
 }
 
 .nav img {
-  width: 42px;
+  width: 32px;
   margin-left: 7px;
 }
 
@@ -237,8 +325,13 @@ body {
   display: none !important;
 }
   hr {
-    height: 10px;
+    height: 4px;
  background-color: #bfc506;
+ margin-bottom: 30px;
+}
+.card-img-top{
+  width: 200px;
+  height: 150px;
 }
 @media (max-width: 576px) {
   .container {
