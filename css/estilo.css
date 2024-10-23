@@ -12,15 +12,14 @@ body {
   background-color: rgba(250, 250, 253, 0.884);
   font-family: "poppins";
 }
-.card{
+.card {
   display: flex;
   flex-direction: row;
-  
 }
-iframe{
+iframe {
   margin-left: 48px;
   margin-bottom: 10px;
-  }
+}
 .container {
   width: 90%;
   margin: 20px auto;
@@ -40,8 +39,7 @@ iframe{
   display: flex;
   align-items: center;
 }
-.hero h6{
-  
+.hero h6 {
   color: #d5d031;
   font-size: 54px;
   font-family: dancing script;
@@ -93,8 +91,8 @@ iframe{
   grid-row: 3/4;
 }
 
-.main h3{
-   margin-left: 118px;
+.main h3 {
+  margin-left: 118px;
   color: #bfc506;
   font-weight: 400;
 }
@@ -109,98 +107,111 @@ iframe{
   align-items: center;
   justify-content: flex-end;
 }
-.mainsubtitle{
-  color: #bfc506;
-  margin-left: 303px;
-  margin-bottom: 31px;
-  font-weight: 300;
+
+.btn {
+  background-color: #bfc506;
+  border-radius: 10px;
+  width: 106px;
+  height: 31px;
+  margin-top: 65px;
+  margin-left: 134px;
 }
-.playa1{
-  width: 200px;
-  height: 230px;
+.mainsubtitle {
+  color: #bfc506;
+  margin-left: 97px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  margin-top: 35px;
+  font-size: 20px;
+}
+.playa1 {
+  width: 95px;
+  height: 132px;
   background-color: #d5d031;
-  margin: 2px auto;
+  margin: 1px auto;
   border-radius: 20px;
   background-image: url("../imagenes/estrella.jpeg");
   background-size: cover;
-
 }
 
-.playa2{
-  width: 200px;
-  height: 230px;
+.playa2 {
+  width: 95px;
+  height: 132px;
   background-color: #d5d031;
-  margin: 2px auto;
+  margin: 1px auto;
   border-radius: 20px;
   background-image: url("../imagenes/boca-del-drago.jpg");
   background-size: cover;
 }
-.playa3{
-  width: 200px;
-  height: 230px;
+.playa3 {
+  width: 95px;
+  height: 132px;
   background-color: #d5d031;
-  margin: 2px auto;
+  margin: 1px auto;
   border-radius: 20px;
   background-image: url("../imagenes/lancha.jpg");
   background-size: cover;
-
-
-
 }
 
-
-.playa1-precio{    
-  width: 180px;
-  height: 30px;
+.playa1-precio {
+  width: 119px;
+  height: 49px;
   background-color: #e0e0da7e;
-  border-radius: 20px;  
-  
-  margin-top: 6px;  
+  border-radius: 20px;
+  margin-top: 6px;
   font-weight: 400;
   color: #361507;
-    
-  margin-top: 153px;
+  margin-top: 103px;
   margin-left: 10px;
-  font-size: 17px;
-  margin-left: 10px;
+  font-size: 15px;
+  margin-left: -19px;
 }
-.playa1-precio p{
+.playa1-precio p {
   margin-left: 15px;
 }
-.tiempo{
+.tiempo {
   width: 80px;
   height: 30px;
   background-color: #e0e0da7e;
-  border-radius: 20px;  
+  border-radius: 20px;
   margin-left: 10px;
   margin-top: 6px;
 }
-.tiempo p{
-  color: white;
-  font-size: 17px;
-  margin-left: 17px;
+.tiempo p {
+  color: #181815;
+  font-size: 14px;
+  margin-left: 18px;
+  margin-top: 3px;
 }
 
-.main-text{
+.main-text {
   width: 486px;
   margin-left: 83px;
   font-size: 15px;
 }
-.history{
+.history {
   width: 650px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   margin-bottom: 0px;
   margin-left: 61px;
 }
-.history img{
-  width: 287px;
-  height: 273px;
-  border-radius: 50%;
-  align-self: center;
+.history-titles{
+  display: flex;
+  flex-direction:row ;
+
 }
-.history h5{
+
+
+.history img {
+  margin-right: 10px;
+  width: 204px;
+  height: 201px;
+  border-radius: 50%;
+  align-self: start;
+}
+.history h5 {
   align-self: center;
   margin-top: 20px;
   margin-right: 48px;
@@ -244,7 +255,7 @@ iframe{
 
 .footer {
   height: 200px;
-  background-color: rgb(7, 7, 7);
+  background-color: rgb(213 208 49);
   grid-column: 1/-1;
   grid-row: 4/6;
 }
@@ -324,15 +335,46 @@ iframe{
 .default-card {
   display: none !important;
 }
-  hr {
-    height: 4px;
- background-color: #bfc506;
- margin-bottom: 30px;
+hr {
+  height: 4px;
+  background-color: #bfc506;
+  margin-bottom: 30px;
 }
-.card-img-top{
+.card-img-top {
   width: 200px;
   height: 150px;
 }
+.accordion-button {
+  background-color: #c4c114be;
+  color: rgb(17, 17, 17);
+  padding: 10px;
+  border: none;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  transition: background-color 0.2s ease;
+}
+.preguntas{
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+.accordion-collapse {
+  display: none;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+}
+
+.active + .accordion-collapse {
+  display: block;
+}
+
+
 @media (max-width: 576px) {
   .container {
     width: 100%;
@@ -340,7 +382,7 @@ iframe{
     grid-template-columns: auto;
   }
   .hero {
-    background-image: url("../imagenes/bocas.jpg");
+    background-image: url("../imagenes/bocas-del-toro-panama.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 0px;
