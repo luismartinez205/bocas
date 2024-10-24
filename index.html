@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>    
+    <title>Document</title>       
     <link rel="stylesheet" href="./css/estilo.css" />
   </head>
   <body>
@@ -72,12 +72,12 @@
         <div class="history">
           <img src="./imagenes/bvieja.jpeg" alt="" />  
           <img src="./imagenes/festival.png" alt="">
-          <img src="./imagenes/festival.png" alt="">
+          <img src="./imagenes/bibis-on-the-beach-bocas-del-toro.jpg" alt="">
           </div>
           <div class="history-titles">
-            <p>Su Historia<a href="#">Ver Mas</a></p>
-            <p>Su Historia<a href="#">Ver Mas</a></p>
-            <p>Su Historia<a href="#">Ver Mas</a></p>
+            <p class="history1">Su Historia<a href="#">Ver Mas</a></p>
+            <p class="history2">Su Cultura<a href="#">Ver Mas</a></p>
+            <p class="history3">Su Gastronomia<a href="#">Ver Mas</a></p>
           </div>                 
         <br />
         <hr />
@@ -88,18 +88,20 @@
             <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-target="#collapseOne">
                     Como se llega a Isla Colon, Bocas Del Toro?
+                    <img src="./imagenes/down.svg" alt="">
                 </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse">
                 <div class="accordion-body">
-                    <strong>Este es el contenido del primer acordeón.</strong> Puedes poner cualquier contenido aquí.
+                   <p> Empezamos trasladandonos desde el aeropuerto de tocumen hasta la gran estacion de Albrooll en un taxi o tomando el metro.Ya en albrool compramos un pasaje en bus hasta Almirante, ya en almirante, compramos un pasaje a isla colon en lancha.<a href="mapa.html">ver mapa</a></p> 
                 </div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-target="#collapseTwo">
-                    Accordion Item #2
+                    Como es su  Clima?
+                    <img src="./imagenes/down.svg" alt="">
                 </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse">
@@ -112,6 +114,7 @@
             <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-target="#collapseThree">
                     Accordion Item #3
+                    <img src="./imagenes/down.svg" alt="">
                 </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse">
@@ -123,6 +126,7 @@
     </div>
       </main>
       <div class="main">
+        <!--inicia galeria de imagenes-->
         <h3 class="article_title">Galeria Paisajes</h3>
         <div class="aside">
           <div
@@ -166,6 +170,7 @@
           </div>
         </div>
         <h2 class="mainsubtitle">Tours Destacados</h2><br>
+        <!--inicia card de tours-->
         <div class="card">
           <div class="playa1">
             <div class="tiempo">
@@ -193,16 +198,37 @@
           </div>          
         </div>
         <div class="btn">
-          <a href="#">Mas Tours</a>
+          <a href="tours.html">Ver Mas</a>
+        </div>
+        <!--fin de card de tours-->
+        <div class="redes">
+<iframe src="https://www.instagram.com/reel/CWVc4VclZQU/embed" frameborder="0"></iframe>
         </div>
       </div>
-      <footer class="footer">
-        <a href="">Lorem ipsum dolor sit.</a>
-      </footer>
+      <div class="footer">
+        <h2 class="footer_title">Aliados Estrategicos</h2>
+        <!--Inicio de carousel--> 
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./imagenes/estrella.jpeg" alt="First slide" width="120px">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./imagenes/playa.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./imagenes/boca-del-drago.jpg" alt="Third slide">
+            </div>
+          </div>
+        </div> 
+        <!--fin de carousel-->
+      </div>
     </div>
     <script src="./css/api.js"></script>
     <script src="./css/galery.js"></script> 
-    <script src="./css/mapa.js"></script>   
+    <script src="./css/mapa.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>   
     <script
       type="text/javascript"
       src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"

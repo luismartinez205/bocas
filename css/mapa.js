@@ -31,4 +31,17 @@ accordionButtons.forEach(button => {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  let items = document.querySelectorAll('.carousel-item');
+  let currentIndex = 0;
+
+  function showNextSlide() {
+    items[currentIndex].classList.remove('active');
+    currentIndex = (currentIndex + 1) % items.length;
+    items[currentIndex].classList.add('active');
+  }
+
+  setInterval(showNextSlide, 6000); // Cambiar cada 3 segundos
+});
+
 
